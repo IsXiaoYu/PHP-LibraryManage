@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+}
+html{
+    height: 100%;
+}
+header{
+    flex: 0 0 auto;
+}
+.main-content{
+    flex: 1 0 auto;
+}
+footer{
+    flex: 0 0 auto;
+    background-color: rgba(219, 219, 226, 1);
+    position: relative;
+    color: #484848;
+    text-align: center;
+    padding-top: 10px;
+}
+footer a:hover{
+    text-decoration: none;
+}
+/* 登录界面背景 */
+#login{
+    background-image:url(../img/bg.jpg);
+    background-position: center;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+/* 登录界面样式 */
+#login .container{
+    width: 30%;
+    margin-top:50px;
+    background-color:#ffffff9c;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    border-radius: 25px;
+}
+/* 主页导航样式 */
+#homepage nav{
+    padding: 0 0 0 10px;
+    background-color: #e7ecf1;
+}
+#homepage nav ul li:hover{
+    background-color: rgba(219, 219, 226, 1);
+}
+#home-bg{
+    background-image: url(../img/bg.jpg);
+    background-position: center;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    
+}
+#home-bg div{
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px 0 20px 0;
+    background-color: rgba(245, 243, 240, 0.712);
+    border-radius: 25px;
+    text-align: center;
+}
+/* 图书详情 */
+#detail{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+#detail textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+  #detail button{
+    background-color: #233,236,239;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+/* 用户信息 */
+#about{
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+#about .userInfo{
+    padding: 30px 0;
+    background-color: rgb(245,245,245);
+    border-radius: 27px;
+}
