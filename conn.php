@@ -2,7 +2,7 @@
 <?php
 $servername = "127.0.0.1";
 $username = "root";
-$password = "root";
+$password = "your password";
 $dbname="library_info";
 // 创建连接
 $conn = mysqli_connect($servername, $username, $password,$dbname);
